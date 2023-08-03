@@ -8,3 +8,7 @@ document.querySelectorAll('.gallery img').forEach(image => {
 document.querySelector('.popup-image span').onclick = () =>{
     document.querySelector('.popup-image').style.display = 'none';
 }
+
+function sendAllow() {
+    document.getElementById("sendbtn").disabled = !document.getElementById("checker").checked;
+  }

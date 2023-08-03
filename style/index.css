@@ -311,3 +311,60 @@ body {
 .bd-mode-toggle {
   z-index: 1500;
 }
+
+/* Forms */
+
+.forms {
+  margin: 0.9rem;
+}
+
+
+.forms input {
+  width: 100%;
+  height: 3rem;
+  background-color: whitesmoke;
+  border:solid;
+  border-color: grey;
+  border-width: 1px;
+}
+
+.forms select {
+  width: 100%;
+  height: 3rem;
+  background-color: whitesmoke;
+}
+
+.forms textarea {
+  width: 100%;
+  height: 3rem;
+  background-color: whitesmoke;
+  padding: 0.7rem;
+}
+
+.forms button {
+  width: 10rem;
+  height: 3rem;
+}
+
+.forms button:disabled {
+  background-color: grey;
+}
+
+textarea:focus, input:focus , select:focus{
+  outline-color: #FF9642;
+  outline-width: 1px;
+}
+
+.footerFix {
+  text-align:right; 
+  text-decoration: none; 
+  color: grey;
+}
+
+
+@media (max-width: 763px) {
+  .footerFix{
+    text-align:left;
+  }
+}
+
