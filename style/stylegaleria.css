@@ -130,6 +130,7 @@ body {
     transition: 
         transform .5s,
         filter .5s;
+    cursor: pointer;
 }
 
 .gallery__link:hover .gallery__image {
